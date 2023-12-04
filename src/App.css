@@ -1,0 +1,55 @@
+.strawberriesBox, .bananasBox, .appleBox, .kiwiBox {
+
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.strawberriesBox {
+    color: firebrick;
+    border: firebrick 1px solid;
+}
+
+.bananasBox {
+    color: #f6c446;
+    border: #f6c446 1px solid;
+}
+
+.appleBox {
+    color: #84af1a;
+    border: #84af1a 1px solid;
+}
+.kiwiBox {
+    color: yellowgreen;
+    border: yellowgreen 1px solid;
+}
+.strawberriesButton, .bananasButton, .appleButton, .kiwiButton {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+
+}
+
+.resetButton {
+    color: whitesmoke;
+    background-color: darkslategrey;
+    width: 300px;
+    border: 0;
+    border-radius: 5px;
+}
+h1 {
+    font-family: monospace;
+    color: lightcoral;
+}
+
+.orderPage {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
